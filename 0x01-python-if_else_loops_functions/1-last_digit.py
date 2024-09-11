@@ -12,4 +12,4 @@ if last_num > 5:
 elif last_num == 0:
     print("0")
 else:
-    print("Less than 6 and not 0")
+    print("less than 6 and not 0")
