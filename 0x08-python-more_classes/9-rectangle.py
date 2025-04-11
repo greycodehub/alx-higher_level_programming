@@ -1,5 +1,6 @@
+
 #!/usr/bin/python3
-"""Module 8-rectangle
+"""Module 9-rectangle
 Defines a Rectangle class.
 """
 
@@ -116,3 +117,13 @@ class Rectangle:
             return rect_1
         if rect_1.area() < rect_2.area():
             return rect_2
+
+    @classmethod
+    def square(cls, size=0):
+        """Creates a new Rectangle instance with width == height == size
+        Args:
+            size: size to set the new rectangle to
+        Returns:
+            The new Rectangle instance
+        """
+        return cls(size, size)
