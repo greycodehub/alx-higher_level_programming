@@ -1,5 +1,6 @@
+#!/usr/bin/python3
 
-dule 6-rectangle
+"""module 6-rectangle
 Defines a Rectangle class.
 """
 
